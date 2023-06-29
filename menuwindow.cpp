@@ -32,7 +32,6 @@ void MenuWindow::on_addPlayer_Button_clicked()
 
     layout->insertLayout(layout->count(), newPlayerSlot);
 
-
 }
 
 

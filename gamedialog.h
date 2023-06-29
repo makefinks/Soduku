@@ -14,6 +14,8 @@ class GameDialog : public QDialog
 public:
     explicit GameDialog(QWidget *parent = nullptr);
     ~GameDialog();
+    void setNumberAt(int row, int column, const QString& number);
+    void initColors();
 
 private:
     Ui::GameDialog *ui;
